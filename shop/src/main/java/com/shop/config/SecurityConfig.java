@@ -49,9 +49,11 @@ public class SecurityConfig {
                 .mvcMatchers("/css/**", "/js/**", "/img/**").permitAll()
                 .mvcMatchers("/", "/members/**", "/item/**", "/images/**").permitAll()
                 .mvcMatchers("/admin/**").hasRole("ADMIN")
-                .anyRequest().authenticated()
-        ;
+                .anyRequest().authenticated();
 
+        http.exceptionHandling()
+                .authenticationEntryPoint(new CustomAuthenticationEntryPoint())
+        ;
 
 
         return http.build();

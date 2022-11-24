@@ -1,4 +1,4 @@
-package com.shop.Controller;
+package com.shop.controller;
 
 import com.shop.MemberService.MemberService;
 import com.shop.dto.MemberFormDto;
