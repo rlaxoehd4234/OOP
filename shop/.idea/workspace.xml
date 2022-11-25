@@ -5,46 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1070a823-6ba7-483b-b468-3f5b1547d5fc" name="Changes" comment="repository">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_modelmapper_modelmapper_3_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shop/MemberService/FileService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shop/MemberService/ItemImgService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shop/MemberService/ItemService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shop/config/AuditConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shop/config/AuditorAwareImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shop/config/WebMvcConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shop/dto/ItemFormDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shop/dto/ItemImgDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shop/entity/BaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shop/entity/BaseTimeEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shop/entity/ItemImg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shop/repository/ItemImgRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shop/repository/OrderItemRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/shop/repository/OrderRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/shop/entity/MemberTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/shop/entity/OrderTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../shop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../shop.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shop/controller/ItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shop/controller/ItemController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shop/entity/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shop/entity/Cart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shop/entity/CartItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shop/entity/CartItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shop/entity/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shop/entity/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shop/entity/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shop/entity/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shop/entity/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shop/entity/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shop/entity/OrderItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shop/entity/OrderItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application-test.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-test.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/item/itemForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/item/itemForm.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application-test.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application-test.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/shop/Controller/ItemController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shop/Controller/ItemController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/shop/entity/Cart.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shop/entity/Cart.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/shop/entity/CartItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shop/entity/CartItem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/shop/entity/Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shop/entity/Item.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/shop/entity/Member.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shop/entity/Member.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/shop/entity/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shop/entity/Order.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/shop/entity/OrderItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shop/entity/OrderItem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/item/itemForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/item/itemForm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shop/MemberService/ItemService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shop/MemberService/ItemService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

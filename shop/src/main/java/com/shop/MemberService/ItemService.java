@@ -9,7 +9,7 @@ import org.springframework.transaction.annotation.Transactional;
 @Service
 @Transactional
 @RequiredArgsConstructor
-public class ItemService {
+public class ItemService {  
 
     private final ItemRepository itemRepository;
     private final ItemImgService itemImgRepository;
