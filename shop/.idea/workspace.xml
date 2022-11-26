@@ -5,7 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1070a823-6ba7-483b-b468-3f5b1547d5fc" name="Changes" comment="repository">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/shop/service/ItemServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/shop/MemberService/ItemService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shop/MemberService/ItemService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shop/controller/ItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shop/controller/ItemController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shop/repository/ItemImgRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shop/repository/ItemImgRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shop/Controller/ItemController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shop/Controller/ItemController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shop/repository/ItemImgRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shop/repository/ItemImgRepository.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,6 +106,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ItemServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shop.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.shop.service" />
+      <option name="MAIN_CLASS_NAME" value="com.shop.service.ItemServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MemberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="shop" />
       <extension name="coverage">
@@ -108,21 +131,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.shop.entity" />
       <option name="MAIN_CLASS_NAME" value="com.shop.entity.MemberTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OrderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="shop" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.shop.entity.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.shop.entity" />
-      <option name="MAIN_CLASS_NAME" value="com.shop.entity.OrderTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -162,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.ShopApplication" />
+        <item itemvalue="JUnit.ItemServiceTest" />
         <item itemvalue="JUnit.MemberTest" />
         <item itemvalue="JUnit.OrderTest.lazyLoadingTest" />
         <item itemvalue="JUnit.OrderTest.orphanRemovalTest" />
-        <item itemvalue="Application.com.ShopApplication" />
-        <item itemvalue="JUnit.OrderTest" />
       </list>
     </recent_temporary>
   </component>
