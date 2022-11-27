@@ -24,9 +24,9 @@ public class Item extends BaseEntity{
     @Column(nullable = false, length = 50)
     private String itemNm; // 상품명
     @Column(name="price", nullable = false)
-    private Integer price; // 가격
+    private int price; // 가격
     @Column(nullable = false)
-    private Integer stockNumber; //재고수량
+    private int stockNumber; //재고수량
 
     @Lob
     @Column(nullable = false)
