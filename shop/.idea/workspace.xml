@@ -5,14 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1070a823-6ba7-483b-b468-3f5b1547d5fc" name="Changes" comment="repository">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shop/dto/MainItemDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/item/itemDtl.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/generated-sources/java/com/shop/dto/QMainItemDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shop/MemberService/ItemImgService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shop/MemberService/ItemImgService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/shop/MemberService/ItemService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shop/MemberService/ItemService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/shop/controller/ItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shop/controller/ItemController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shop/entity/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shop/entity/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/shop/MemberService/ItemImgService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shop/MemberService/ItemImgService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shop/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shop/controller/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shop/dto/ItemSearchDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shop/dto/ItemSearchDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shop/repository/ItemRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shop/repository/ItemRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shop/repository/ItemRepositoryCustom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shop/repository/ItemRepositoryCustom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shop/repository/ItemRepositoryCustomImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shop/repository/ItemRepositoryCustomImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/item/itemMng.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/item/itemMng.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shop/Controller/ItemController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shop/Controller/ItemController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shop/Controller/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shop/Controller/MainController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/shop/MemberService/ItemService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shop/MemberService/ItemService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/shop/entity/Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shop/entity/Item.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shop/entity/QItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shop/entity/QItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shop/entity/QMember.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shop/entity/QMember.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shop/repository/ItemRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shop/repository/ItemRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/java/com/shop/entity/QItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/java/com/shop/entity/QItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/java/com/shop/entity/QMember.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/java/com/shop/entity/QMember.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,10 +41,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
-        <option value="HTML File" />
         <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -63,26 +78,29 @@
     </option>
   </component>
   <component name="ProjectId" id="2HqG63i8wIGXaicFBQURKpHy7qE" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/gimtaedong/Desktop/스프링부트 쇼핑몰프로젝트 with JPA/OOP/shop&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.annotationProcessors&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_opened_file_path": "/Users/gimtaedong/Desktop/스프링부트 쇼핑몰프로젝트 with JPA/OOP/shop",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -208,6 +226,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="repository" />
     <option name="LAST_COMMIT_MESSAGE" value="repository" />
   </component>

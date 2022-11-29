@@ -1,2 +1,4 @@
 com/shop/entity/QMember.class
+com/shop/dto/MainItemDto.class
+com/shop/dto/QMainItemDto.class
 com/shop/entity/QItem.class
