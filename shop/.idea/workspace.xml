@@ -6,10 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="1070a823-6ba7-483b-b468-3f5b1547d5fc" name="Changes" comment="repository">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shop/dto/ItemDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shop/dto/ItemDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/shop/dto/ItemFormDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shop/dto/ItemFormDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/shop/dto/ItemDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shop/dto/ItemDto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/shop/dto/ItemFormDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shop/dto/ItemFormDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shop/MemberService/ItemImgService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shop/MemberService/ItemImgService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shop/MemberService/ItemService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shop/MemberService/ItemService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shop/controller/ItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shop/controller/ItemController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shop/entity/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shop/entity/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shop/MemberService/ItemImgService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shop/MemberService/ItemImgService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shop/MemberService/ItemService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shop/MemberService/ItemService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shop/entity/Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shop/entity/Item.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
