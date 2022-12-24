@@ -2,6 +2,7 @@ package com.shop.repository;
 
 import com.querydsl.core.QueryResults;
 import com.querydsl.core.types.dsl.BooleanExpression;
+import com.querydsl.core.types.dsl.Wildcard;
 import com.querydsl.jpa.impl.JPAQueryFactory;
 import com.shop.constant.ItemSellStatus;
 import com.shop.dto.ItemSearchDto;
@@ -86,32 +87,37 @@ public class ItemRepositoryCustomImpl implements ItemRepositoryCustom{
     }
 
     @Override
-    public Page<MainItemDto> getMainItemPage(ItemSearchDto itemSearchDto, Pageable pageable){
+    public Page<MainItemDto> getMainItemPage(ItemSearchDto itemSearchDto, Pageable pageable) {
         QItem item = QItem.item;
         QItemImg itemImg = QItemImg.itemImg;
 
-        QueryResults<MainItemDto> results = queryFactory
+        List<MainItemDto> content = queryFactory
                 .select(
                         new QMainItemDto(
                                 item.id,
                                 item.itemNm,
                                 item.itemDetail,
                                 itemImg.imgUrl,
-                                item.price )
+                                item.price)
                 )
                 .from(itemImg)
-                .join(itemImg.item,item)
+                .join(itemImg.item, item)
                 .where(itemImg.repImgYn.eq("Y"))
                 .where(itemNmLike(itemSearchDto.getSearchQuery()))
                 .orderBy(item.id.desc())
                 .offset(pageable.getOffset())
                 .limit(pageable.getPageSize())
-                .fetchResults();
+                .fetch();
 
+        long total = queryFactory
+                .select(Wildcard.count)
+                .from(itemImg)
+                .join(itemImg.item, item)
+                .where(itemImg.repImgYn.eq("Y"))
+                .where(itemNmLike(itemSearchDto.getSearchQuery()))
+                .fetchOne()
+                ;
 
-        List<MainItemDto> content = results.getResults();
-        long total = results.getTotal();
-        return new PageImpl<>(content,pageable,total);
-
+        return new PageImpl<>(content, pageable, total);
     }
 }

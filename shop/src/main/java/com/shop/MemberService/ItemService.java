@@ -35,9 +35,22 @@ public class ItemService {
 
         List<ItemImg> itemImgList = itemImgRepository.findByItemIdOrderByIdAsc(itemId);
         List<ItemImgDto> itemImgDtoList = new ArrayList<>();
+
+        for (ItemImg itemImg : itemImgList) {
+            System.out.println("itemImg Name : " + itemImg.getImgName());
+            System.out.println("itemImg OriName : " + itemImg.getOriImgName());
+            System.out.println("itemImg Url : " + itemImg.getImgUrl());
+        }
+
         for(ItemImg itemImg : itemImgList) {
             ItemImgDto itemImgDto = ItemImgDto.of(itemImg);
             itemImgDtoList.add(itemImgDto);
+        }
+
+        for (ItemImgDto itemImgDto : itemImgDtoList) {
+            System.out.println("itemImgDto Name : " + itemImgDto.getImgName());
+            System.out.println("itemImgDto OriName : " + itemImgDto.getOriImgName());
+            System.out.println("itemImgDto Url : " + itemImgDto.getImgUrl());
         }
 
         Item item = itemRepository.findById(itemId)
