@@ -29,7 +29,7 @@ import static org.springframework.security.config.Customizer.withDefaults;
 
 @Configuration
 @EnableWebSecurity
-public class SecurityConfig  {
+public class SecurityConfig  { // 5.7 version 부터 상속이 아닌 빈으로 관리한다. 
 
     @Autowired
     MemberService memberService;
